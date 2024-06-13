@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Bônus</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>      
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <div class="logo">
+        <h2>GANHE DINHEIRO AGORA</h2>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Carros</a></li>
+            <li><a href="#">Imóveis</a></li>
+            <li><a href="#">Pix</a></li>
+            <li><a href="#">Ações</a></li>
+        </ul>
+    </nav>
+
+</header>
+<body>
+
+    <img class= "fotocarro" src="carro zero1.jpg" alt="">
+    <br><br>
+    <input type="button" onclick="apertar1()" class= "botao" value="Clique Aqui e garanta seu carro! ">
+    <br><br>
+    <img class="fotocasa" src="CASA PRAIA.webp" alt="">
+    <br><br>
+    <input type="button" onclick="apertar2()" class= "botao" value="Clique Aqui e adquira este imóvel!">
+    
+    <center>
+
+    </center>
+
+    <script>
+    function apertar1() {
+        Swal.fire({
+            title: "Parabéns!",
+            text: "Você acaba de ganhar um carro novinho zero km! realize seu cadastro para retirá-lo",
+            icon: "success"
+          });
+    }
+  
+        function apertar2() {
+            Swal.fire({
+                title: "Parabéns!",
+                text: "Você acaba de adquirir um lindo imóvel na beira da praia! realize seu cadastro para receber as chaves! ",
+                icon: "success"
+              });
+        }
+    </script>
+</body>
+</html>
